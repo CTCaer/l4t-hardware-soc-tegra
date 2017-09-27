@@ -1,7 +1,7 @@
 /*
  * include/dt-bindings/display/tegra-dc.h
  *
- * Copyright (c) 2015-2016, NVIDIA CORPORATION.  All rights reserved.
+ * Copyright (c) 2015-2017, NVIDIA CORPORATION.  All rights reserved.
  *
  * This program is free software; you can redistribute it and/or modify it
  * under the terms and conditions of the GNU General Public License,
@@ -83,6 +83,10 @@
 /* tegra_dc_out_pin.pol */
 #define TEGRA_DC_OUT_PIN_POL_LOW	0
 #define TEGRA_DC_OUT_PIN_POL_HIGH	1
+
+/* tegra_hdmi_out.generic_infoframe_type */
+#define HDMI_INFOFRAME_TYPE_SPD		0x83
+#define HDMI_INFOFRAME_TYPE_HDR		0x87
 
 #endif /* __TEGRA_DC_H */
 
