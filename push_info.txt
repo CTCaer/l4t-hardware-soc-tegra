@@ -1,1 +1,1 @@
-daily-2019.10.25.0_rel-32-r7-partner
+daily-2020.01.30.0_rel-32-r7-partner
